@@ -1,0 +1,28 @@
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .wrapper {
+    background-color: lightcoral;
+    color: white;
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .joke {
+    min-height: 80px;   /* Prevents shrinking */
+    margin-bottom: 15px;
+  }
+
+  .getJoke {
+    background-color: pink;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+  }
